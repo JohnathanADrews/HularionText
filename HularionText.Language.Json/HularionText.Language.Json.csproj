@@ -1,0 +1,55 @@
+﻿
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net7.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <ApplicationIcon>HularionIcon.ico</ApplicationIcon>
+	  <SignAssembly>False</SignAssembly>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>HularionText.Language.Json</Title>
+	  <Authors>Johnathan A Drews</Authors>
+	  <Product>Hularion</Product>
+	  <Description>HularionText.Language.Json is a JSON serializer. It serializes and deserializes with an intermediary object called JsonDocument. JsonDocument contains all the data going to or from a document or C# object, and it can be read or modified directly.</Description>
+	  <Copyright>Copyright (c) 2023-2024 Johnathan A Drews</Copyright>
+	  <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
+	  <PackageIcon>Hularion image.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/JohnathanADrews/HularionText</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageTags>hularion text json serializer parser</PackageTags>
+	  <Version>2.1.3</Version>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="HularionIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Hularion image.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	  <None Include="..\LICENSE">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+	  </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HularionText\HularionText.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

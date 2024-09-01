@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionText", "HularionText\HularionText.csproj", "{6B791EF7-80BB-4A5F-A6D5-5354AC2571F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionText.Language.Css", "HularionText.Language.Css\HularionText.Language.Css.csproj", "{93927E68-E9FA-4873-BB4B-E76CD4E3DBB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionText.Language.Html", "HularionText.Language.Html\HularionText.Language.Html.csproj", "{5E722086-8A5A-4B11-82D3-5C921682530D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionText.Language.Hmql", "HularionText.Language.Hmql\HularionText.Language.Hmql.csproj", "{0DD2B980-8E0D-4AD9-8B8F-F1AEFE665BDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HularionText.Language.Json", "HularionText.Language.Json\HularionText.Language.Json.csproj", "{BA499B6E-E601-444E-8E69-891A31D9C4A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B791EF7-80BB-4A5F-A6D5-5354AC2571F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B791EF7-80BB-4A5F-A6D5-5354AC2571F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B791EF7-80BB-4A5F-A6D5-5354AC2571F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B791EF7-80BB-4A5F-A6D5-5354AC2571F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93927E68-E9FA-4873-BB4B-E76CD4E3DBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93927E68-E9FA-4873-BB4B-E76CD4E3DBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93927E68-E9FA-4873-BB4B-E76CD4E3DBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93927E68-E9FA-4873-BB4B-E76CD4E3DBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E722086-8A5A-4B11-82D3-5C921682530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E722086-8A5A-4B11-82D3-5C921682530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E722086-8A5A-4B11-82D3-5C921682530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E722086-8A5A-4B11-82D3-5C921682530D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD2B980-8E0D-4AD9-8B8F-F1AEFE665BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD2B980-8E0D-4AD9-8B8F-F1AEFE665BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD2B980-8E0D-4AD9-8B8F-F1AEFE665BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD2B980-8E0D-4AD9-8B8F-F1AEFE665BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA499B6E-E601-444E-8E69-891A31D9C4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA499B6E-E601-444E-8E69-891A31D9C4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA499B6E-E601-444E-8E69-891A31D9C4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA499B6E-E601-444E-8E69-891A31D9C4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB6DBB5-3AE1-49A9-975C-1D62D2C11AAA}
+	EndGlobalSection
+EndGlobal
