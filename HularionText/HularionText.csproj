@@ -12,14 +12,14 @@
 	  <Authors>Johnathan A Drews</Authors>
 	  <Product>Hularion</Product>
 	  <Description>HularionText is a package concerned with analyzing text. It contains pre-cursor patterns for serializers, parsers, and compilers.</Description>
-	  <Copyright>Copyright (c) 2023 Johnathan A Drews</Copyright>
+	  <Copyright>Copyright (c) 2023-2024 Johnathan A Drews</Copyright>
 	  <PackageProjectUrl>http://www.hularion.com</PackageProjectUrl>
 	  <PackageIcon>Hularion image.png</PackageIcon>
 	  <RepositoryUrl>https://github.com/JohnathanADrews/HularionText</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageTags>hularion text serialized parse parser</PackageTags>
-	  <Version>2.1.2</Version>
+	  <Version>3.0.0</Version>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
 	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HularionCore\HularionCore.csproj" />
+    <PackageReference Include="HularionCore" Version="3.0.0" />
   </ItemGroup>
 
 	<ItemGroup>
